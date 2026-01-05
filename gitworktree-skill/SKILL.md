@@ -13,6 +13,9 @@ Use this skill when you need isolated development for a feature, fix, or experim
 
 ## Commands
 
+If `ga`/`gd` are not available, install the helper functions from `scripts/worktree_helpers.sh`
+and then use the commands below.
+
 ```bash
 # Create worktree + branch and cd into it
 ga <branch-name>
@@ -41,3 +44,12 @@ git worktree list
 - Only run `gd` inside a worktree directory to avoid deleting the main repo.
 - If `gd` fails, install gum: `brew install gum`.
 - If a branch already exists, choose a new name or delete the old branch first.
+
+## Install helpers (if needed)
+
+```bash
+# From this repo root
+source scripts/worktree_helpers.sh
+```
+
+Add the `source` line to your shell profile (e.g. `~/.zshrc`) to make `ga`/`gd` available.

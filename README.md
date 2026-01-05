@@ -6,8 +6,14 @@ using the `ga` and `gd` helpers to create, switch, and clean isolated branches.
 ## How to use
 
 1. Install or copy the `gitworktree-skill` directory into your Codex skills path.
-2. Start a Codex session in a repo where you want to use worktrees.
-3. Ask for isolated feature/fix work and use the commands below.
+2. If `ga`/`gd` are not available, install the helpers:
+
+```bash
+source scripts/worktree_helpers.sh
+```
+
+3. Start a Codex session in a repo where you want to use worktrees.
+4. Ask for isolated feature/fix work and use the commands below.
 
 ### Commands
 
