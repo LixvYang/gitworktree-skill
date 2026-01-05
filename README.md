@@ -2,3 +2,23 @@
 
 This repo contains a Codex skill that captures a fast Git worktree workflow
 using the `ga` and `gd` helpers to create, switch, and clean isolated branches.
+
+## How to use
+
+1. Install or copy the `gitworktree-skill` directory into your Codex skills path.
+2. Start a Codex session in a repo where you want to use worktrees.
+3. Ask for isolated feature/fix work and use the commands below.
+
+### Commands
+
+```bash
+ga <branch-name>     # create worktree + branch and cd into it
+gd                  # delete current worktree (requires gum)
+git worktree list   # list all worktrees
+```
+
+### Example
+
+```bash
+ga feature/new-api
+```
