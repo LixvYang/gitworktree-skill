@@ -54,6 +54,12 @@ source scripts/worktree_helpers.sh
 
 Add the `source` line to your shell profile (e.g. `~/.zshrc`) to make `ga`/`gd` available.
 
+Example:
+
+```bash
+echo 'source /path/to/gitworktree-skill/scripts/worktree_helpers.sh' >> ~/.zshrc
+```
+
 ### Dependencies
 
 - `gum` is required for `gd` confirmation prompts.
