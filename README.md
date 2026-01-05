@@ -12,8 +12,11 @@ using the `ga` and `gd` helpers to create, switch, and clean isolated branches.
 source scripts/worktree_helpers.sh
 ```
 
-3. Start a Codex session in a repo where you want to use worktrees.
-4. Ask for isolated feature/fix work and use the commands below.
+3. Optional dependencies:
+   - `gum` (required by `gd`): `brew install gum`
+   - `mise` (optional, for auto trust): `brew install mise`
+4. Start a Codex session in a repo where you want to use worktrees.
+5. Ask for isolated feature/fix work and use the commands below.
 
 ### Commands
 
