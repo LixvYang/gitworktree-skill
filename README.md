@@ -12,6 +12,12 @@ using the `ga` and `gd` helpers to create, switch, and clean isolated branches.
 source scripts/worktree_helpers.sh
 ```
 
+Add to your shell profile to make them persistent:
+
+```bash
+echo 'source /path/to/gitworktree-skill/scripts/worktree_helpers.sh' >> ~/.zshrc
+```
+
 3. Optional dependencies:
    - `gum` (required by `gd`): `brew install gum`
    - `mise` (optional, for auto trust): `brew install mise`
